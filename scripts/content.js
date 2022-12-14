@@ -5,4 +5,9 @@ if (body) {
   const text = body.textContent;
   const heading = article.querySelector("h1");
   (heading).insertAdjacentElement("afterend", heading);
+  
+  console.log("FILTER COMPLETED")
+  console.log(heading)
+
 }
+
